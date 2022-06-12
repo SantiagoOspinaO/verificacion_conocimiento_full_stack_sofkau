@@ -61,7 +61,6 @@
                 e.preventDefault();
 
                 if (!e.target.id.value) {
-                    //Create - POST
                     try {
                         let options = {
                             method: "POST",
@@ -82,7 +81,6 @@
                         $form.insertAdjacentHTML("afterend", `<p><b>Error ${err.status}: ${message}</b></p>`);
                     }
                 } else {
-                    //Update - PUT
                     try {
                         let options = {
                             method: "PUT",
@@ -118,7 +116,6 @@
                 let isDelete = confirm(`¿Estás seguro de eliminar el id ${e.target.dataset.id}?`);
 
                 if (isDelete) {
-                    //Delete - DELETE
                     try {
                         let options = {
                             method: "DELETE",
