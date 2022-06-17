@@ -2,7 +2,7 @@
 
 
 **Ejecución**  
-Para correr el db.jdon se debe ejecutar `npm install json-server`  
+Para correr el db.json se debe ejecutar `npm install json-server`  
 Luego `npm start`  
 Y la ruta a consumir es `http://localhost:3000/santos`
 
